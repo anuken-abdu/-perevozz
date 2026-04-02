@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компании и Контакты — Грузоперевозки Астана</title>
+    <meta name="description" content="О компании Грузоперевозки Астана. Контакты: +7 707 453 45 18. Опыт работы более 5 лет, автопарк из 15+ машин.">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="container header__inner">
+        <a href="/" class="logo"><span class="logo__icon">🚛</span><span class="logo__text" data-ru="Грузоперевозки" data-kz="Жүк тасымалдау">Грузоперевозки</span></a>
+        <nav class="nav" id="nav">
+            <a href="/" class="nav__link" data-ru="Главная" data-kz="Басты бет">Главная</a>
+            <a href="uslugi.html" class="nav__link" data-ru="Услуги" data-kz="Қызметтер">Услуги</a>
+            <a href="ceny.html" class="nav__link" data-ru="Цены" data-kz="Бағалар">Цены</a>
+            <a href="gazel.html?type=tent" class="nav__link" data-ru="Газели" data-kz="Газельдер">Газели</a>
+            <a href="about-contacts.html" class="nav__link active" data-ru="О нас" data-kz="Біз туралы">О нас</a>
+            <a href="about-contacts.html#contacts" class="nav__link" data-ru="Контакты" data-kz="Байланыс">Контакты</a>
+        </nav>
+        <div class="header__right">
+            <a href="tel:+77074534518" class="header__phone"><span class="phone-icon">📞</span> +7 707 453 45 18</a>
+            <div class="lang-switch"><button class="lang-btn active" data-lang="ru">RU</button><button class="lang-btn" data-lang="kz">KZ</button></div>
+            <a href="tel:+77074534518" class="btn btn--primary header__cta" data-ru="Позвонить" data-kz="Қоңырау шалу">Позвонить</a>
+            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<main>
+<div class="breadcrumb"><div class="container"><a href="/" data-ru="Главная" data-kz="Басты бет">Главная</a><span>/</span><span data-ru="О нас" data-kz="Біз туралы">О нас</span></div></div>
+
+<!-- TABS -->
+<section class="section" style="padding-top:20px">
+    <div class="container">
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="about-tab" data-ru="О компании" data-kz="Компания туралы">О компании</button>
+            <button class="tab-btn" data-tab="contacts-tab" data-ru="Контакты" data-kz="Байланыс">Контакты</button>
+        </div>
+
+        <!-- ABOUT TAB -->
+        <div class="tab-content active" id="about-tab">
+            <h1 class="section__title" data-ru="О компании «Грузоперевозки Астана»" data-kz="«Жүк тасымалдау Астана» компаниясы туралы">О компании «Грузоперевозки Астана»</h1>
+
+            <div class="stats-grid animate-up">
+                <div class="stat-card"><div class="stat-card__number">5+</div><div class="stat-card__label" data-ru="лет на рынке" data-kz="жыл нарықта">лет на рынке</div></div>
+                <div class="stat-card"><div class="stat-card__number">15+</div><div class="stat-card__label" data-ru="машин в автопарке" data-kz="автопарктағы көлік">машин в автопарке</div></div>
+                <div class="stat-card"><div class="stat-card__number">10 000+</div><div class="stat-card__label" data-ru="выполненных заказов" data-kz="орындалған тапсырыс">выполненных заказов</div></div>
+                <div class="stat-card"><div class="stat-card__number">30+</div><div class="stat-card__label" data-ru="сотрудников" data-kz="қызметкер">сотрудников</div></div>
+            </div>
+
+            <div class="about-text animate-up">
+                <p data-ru="Компания «Грузоперевозки Астана» работает на рынке транспортных услуг столицы Казахстана более 5 лет. За это время мы выполнили свыше 10 000 заказов и заслужили доверие тысяч клиентов — как частных лиц, так и компаний." data-kz="«Жүк тасымалдау Астана» компаниясы Қазақстан астанасының көлік қызметтері нарығында 5 жылдан астам жұмыс істейді. Осы уақыт ішінде біз 10 000-нан астам тапсырыс орындап, мыңдаған клиенттердің сенімін қазандық.">Компания «Грузоперевозки Астана» работает на рынке транспортных услуг столицы Казахстана более 5 лет. За это время мы выполнили свыше 10 000 заказов и заслужили доверие тысяч клиентов — как частных лиц, так и компаний.</p>
+                <p data-ru="Наш автопарк насчитывает более 15 единиц техники — от компактных тентованных газелей до вместительных ГАЗелей NEXT и рефрижераторов. Мы подберём оптимальный автомобиль под любой тип груза." data-kz="Біздің автопаркта 15-тен астам техника бірлігі бар — ықшам тентті газельдерден сыйымды ГАЗель NEXT пен тоңазытқыштарға дейін. Кез келген жүк түріне оңтайлы көлікті таңдаймыз.">Наш автопарк насчитывает более 15 единиц техники — от компактных тентованных газелей до вместительных ГАЗелей NEXT и рефрижераторов. Мы подберём оптимальный автомобиль под любой тип груза.</p>
+                <p data-ru="Все наши водители — опытные профессионалы, а грузчики проходят обучение бережному обращению с вещами клиентов. Мы гарантируем сохранность вашего имущества." data-kz="Барлық жүргізушілеріміз — тәжірибелі мамандар, ал жүк тасушылар клиенттердің заттарын ұқыпты ұстауды үйренеді. Біз мүліктеріңіздің сақталуына кепілдік береміз.">Все наши водители — опытные профессионалы, а грузчики проходят обучение бережному обращению с вещами клиентов. Мы гарантируем сохранность вашего имущества.</p>
+            </div>
+
+            <div class="about-img animate-up">
+                <img src="https://mgx-backend-cdn.metadl.com/generate/images/1051846/2026-04-02/37d4132f-c572-42b2-9178-3f92592acc2a.png" alt="Автопарк компании" loading="lazy">
+            </div>
+
+            <div class="about-text animate-up">
+                <h2 style="color:#fff;font-size:24px;margin-bottom:16px" data-ru="Наши преимущества" data-kz="Біздің артықшылықтарымыз">Наши преимущества</h2>
+                <p data-ru="✅ Собственный автопарк — не посредники, а прямой перевозчик" data-kz="✅ Жеке автопарк — делдалдар емес, тікелей тасымалдаушы">✅ Собственный автопарк — не посредники, а прямой перевозчик</p>
+                <p data-ru="✅ Фиксированные цены — без скрытых доплат и «сюрпризов»" data-kz="✅ Тұрақты бағалар — жасырын қосымша төлемсіз">✅ Фиксированные цены — без скрытых доплат и «сюрпризов»</p>
+                <p data-ru="✅ Подача от 30 минут — быстрая реакция на заказ" data-kz="✅ 30 минуттан бастап жеткізу — тапсырысқа жылдам жауап">✅ Подача от 30 минут — быстрая реакция на заказ</p>
+                <p data-ru="✅ Круглосуточная работа — 24/7, без выходных" data-kz="✅ Тәулік бойы жұмыс — 24/7, демалыссыз">✅ Круглосуточная работа — 24/7, без выходных</p>
+                <p data-ru="✅ Удобная оплата — наличные, карта, Kaspi-перевод" data-kz="✅ Ыңғайлы төлем — қолма-қол, карта, Kaspi-аударым">✅ Удобная оплата — наличные, карта, Kaspi-перевод</p>
+            </div>
+        </div>
+
+        <!-- CONTACTS TAB -->
+        <div class="tab-content" id="contacts-tab">
+            <h1 class="section__title" data-ru="Контакты" data-kz="Байланыс" id="contacts">Контакты</h1>
+
+            <div class="contact-grid">
+                <div class="contact-info animate-up">
+                    <div class="contact-item">
+                        <div class="contact-item__icon">📞</div>
+                        <div><h4 data-ru="Телефон" data-kz="Телефон">Телефон</h4><a href="tel:+77074534518">+7 707 453 45 18</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">💬</div>
+                        <div><h4>WhatsApp</h4><a href="https://wa.me/77074534518" target="_blank" rel="noopener">wa.me/77074534518</a></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">✉️</div>
+                        <div><h4>E-mail</h4><a href="/cdn-cgi/l/email-protection#9cf5f2faf3dcfbeee9e6fdefe8fdf2fdb2f7e6"><span class="__cf_email__" data-cfemail="721b1c141d3215000708130106131c135c1908">[email&#160;protected]</span></a></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">🕐</div>
+                        <div><h4 data-ru="Режим работы" data-kz="Жұмыс режимі">Режим работы</h4><p data-ru="Круглосуточно, без выходных" data-kz="Тәулік бойы, демалыссыз">Круглосуточно, без выходных</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">📍</div>
+                        <div><h4 data-ru="Адрес" data-kz="Мекенжай">Адрес</h4><p data-ru="г. Астана, Казахстан" data-kz="Астана қ., Қазақстан">г. Астана, Казахстан</p></div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item__icon">💳</div>
+                        <div><h4 data-ru="Способы оплаты" data-kz="Төлем тәсілдері">Способы оплаты</h4><p data-ru="Наличные, карта, Kaspi-перевод" data-kz="Қолма-қол, карта, Kaspi-аударым">Наличные, карта, Kaspi-перевод</p></div>
+                    </div>
+                </div>
+
+                <div>
+                    <!-- Contact Form -->
+                    <form class="order-form__form animate-up" id="orderForm" novalidate style="margin:0">
+                        <h3 style="color:#fff;font-size:20px;margin-bottom:20px" data-ru="Напишите нам" data-kz="Бізге жазыңыз">Напишите нам</h3>
+                        <div class="form-field" style="margin-bottom:16px"><label for="formName" data-ru="Ваше имя *" data-kz="Сіздің атыңыз *">Ваше имя *</label><input type="text" id="formName" required placeholder="Введите имя" data-placeholder-ru="Введите имя" data-placeholder-kz="Атыңызды енгізіңіз"></div>
+                        <div class="form-field" style="margin-bottom:16px"><label for="formPhone" data-ru="Телефон *" data-kz="Телефон *">Телефон *</label><input type="tel" id="formPhone" required placeholder="+7 (___) ___-__-__"></div>
+                        <div class="form-field" style="margin-bottom:16px"><label for="formComment" data-ru="Сообщение" data-kz="Хабарлама">Сообщение</label><textarea id="formComment" rows="4" placeholder="Ваше сообщение" data-placeholder-ru="Ваше сообщение" data-placeholder-kz="Сіздің хабарламаңыз"></textarea></div>
+                        <div class="form-consent" style="margin-bottom:16px"><label class="checkbox-label"><input type="checkbox" id="formConsent" required><span data-ru="Согласен на обработку персональных данных" data-kz="Жеке деректерді өңдеуге келісемін">Согласен на обработку <a href="privacy.html">персональных данных</a></span></label></div>
+                        <button type="submit" class="btn btn--primary btn--lg" style="width:100%" data-ru="Отправить" data-kz="Жіберу">Отправить</button>
+                        <div class="form-success" id="formSuccess" style="display:none"><div class="form-success__icon">✅</div><p data-ru="Сообщение отправлено!" data-kz="Хабарлама жіберілді!">Сообщение отправлено!</p></div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- MAP -->
+            <div class="map-wrapper animate-up" style="margin-top:40px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d162088.2!2d71.34!3d51.13!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x424580c47db54609%3A0x97f9148dddb19228!2z0JDRgdGC0LDQvdCw!5e0!3m2!1sru!2skz!4v1" width="100%" height="400" style="border:0;border-radius:12px;" allowfullscreen="" loading="lazy" title="Карта Астаны"></iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__col"><a href="/" class="logo"><span class="logo__icon">🚛</span><span class="logo__text">Грузоперевозки</span></a><p class="footer__desc">Грузоперевозки по Астане и пригороду.</p></div>
+        <div class="footer__col"><h4>Навигация</h4><nav class="footer__nav"><a href="/">Главная</a><a href="uslugi.html">Услуги</a><a href="ceny.html">Цены</a><a href="about-contacts.html">О компании</a></nav></div>
+        <div class="footer__col"><h4>Контакты</h4><div class="footer__contact"><a href="tel:+77074534518">📞 +7 707 453 45 18</a><a href="https://wa.me/77074534518" target="_blank" rel="noopener">💬 WhatsApp</a></div></div>
+        <div class="footer__col"><h4>Газели</h4><nav class="footer__nav"><a href="gazel.html?type=tent">Тентованная</a><a href="gazel.html?type=furgon">Фургон</a><a href="gazel.html?type=next">ГАЗель NEXT</a></nav></div>
+    </div>
+    <div class="footer__bottom"><div class="container"><p>© 2026 Грузоперевозки Астана | <a href="privacy.html">Политика конфиденциальности</a></p></div></div>
+</footer>
+
+<div class="floating-btns"><a href="https://wa.me/77074534518" target="_blank" rel="noopener" class="float-btn float-btn--whatsapp">💬</a><button class="float-btn float-btn--top">↑</button></div>
+<a href="tel:+77074534518" class="float-call">📞 Позвонить +7 707 453 45 18</a>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+</html>
