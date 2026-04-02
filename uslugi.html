@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги грузоперевозок в Астане — Все виды перевозок</title>
+    <meta name="description" content="Услуги грузоперевозок в Астане: квартирные и офисные переезды, перевозка мебели, доставка стройматериалов, вывоз мусора. От 3 000 ₸.">
+    <link rel="icon" href="https://public-frontend-cos.metadl.com/mgx/img/favicon_atoms.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+    <div class="container header__inner">
+        <a href="/" class="logo"><span class="logo__icon">🚛</span><span class="logo__text" data-ru="Грузоперевозки" data-kz="Жүк тасымалдау">Грузоперевозки</span></a>
+        <nav class="nav" id="nav">
+            <a href="/" class="nav__link" data-ru="Главная" data-kz="Басты бет">Главная</a>
+            <a href="uslugi.html" class="nav__link active" data-ru="Услуги" data-kz="Қызметтер">Услуги</a>
+            <a href="ceny.html" class="nav__link" data-ru="Цены" data-kz="Бағалар">Цены</a>
+            <a href="gazel.html?type=tent" class="nav__link" data-ru="Газели" data-kz="Газельдер">Газели</a>
+            <a href="about-contacts.html" class="nav__link" data-ru="О нас" data-kz="Біз туралы">О нас</a>
+            <a href="about-contacts.html#contacts" class="nav__link" data-ru="Контакты" data-kz="Байланыс">Контакты</a>
+        </nav>
+        <div class="header__right">
+            <a href="tel:+77074534518" class="header__phone"><span class="phone-icon">📞</span> +7 707 453 45 18</a>
+            <div class="lang-switch"><button class="lang-btn active" data-lang="ru">RU</button><button class="lang-btn" data-lang="kz">KZ</button></div>
+            <a href="#uslugi-form" class="btn btn--primary header__cta" data-ru="Заказать газель" data-kz="Газель тапсырыс беру">Заказать газель</a>
+            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<main>
+<div class="breadcrumb"><div class="container"><a href="/" data-ru="Главная" data-kz="Басты бет">Главная</a><span>/</span><span data-ru="Услуги" data-kz="Қызметтер">Услуги</span></div></div>
+
+<section class="page-hero"><div class="container">
+    <h1 data-ru="Услуги грузоперевозок в Астане" data-kz="Астанадағы жүк тасымалдау қызметтері">Услуги грузоперевозок в Астане</h1>
+    <p data-ru="Полный спектр услуг по перевозке грузов любой сложности" data-kz="Кез келген күрделіліктегі жүктерді тасымалдау бойынша қызметтердің толық спектрі">Полный спектр услуг по перевозке грузов любой сложности</p>
+</div></section>
+
+<section class="section">
+    <div class="container">
+        <div class="services__grid">
+            <!-- Квартирные переезды -->
+            <div class="service-card animate-up" style="padding:32px">
+                <div class="service-card__icon" style="font-size:48px">🏠</div>
+                <h3 style="font-size:22px" data-ru="Квартирные переезды" data-kz="Пәтер көшу">Квартирные переезды</h3>
+                <p data-ru="Организуем переезд из квартиры любого размера. Аккуратно упакуем, погрузим и перевезём все ваши вещи. Грузчики с опытом работы, бережное отношение к мебели и технике." data-kz="Кез келген көлемдегі пәтерден көшуді ұйымдастырамыз. Барлық заттарыңызды ұқыпты орап, тиеп, тасымалдаймыз. Тәжірибелі жүк тасушылар, жиһаз бен техникаға ұқыпты қарау.">Организуем переезд из квартиры любого размера. Аккуратно упакуем, погрузим и перевезём все ваши вещи. Грузчики с опытом работы, бережное отношение к мебели и технике.</p>
+                <div style="margin-top:16px"><span class="service-card__price" style="font-size:20px">от 8 000 ₸</span></div>
+                <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+                    <a href="gazel.html?type=tent" class="btn btn--sm btn--outline" data-ru="Тентованная газель" data-kz="Тентті газель">Тентованная газель</a>
+                    <a href="gazel.html?type=furgon" class="btn btn--sm btn--outline" data-ru="Газель-фургон" data-kz="Газель-фургон">Газель-фургон</a>
+                </div>
+            </div>
+            <!-- Офисные переезды -->
+            <div class="service-card animate-up" style="padding:32px">
+                <div class="service-card__icon" style="font-size:48px">🏢</div>
+                <h3 style="font-size:22px" data-ru="Офисные переезды" data-kz="Кеңсе көшу">Офисные переезды</h3>
+                <p data-ru="Перевозка офисной мебели, оргтехники, документов и серверного оборудования. Работаем быстро и организованно, чтобы минимизировать простой вашего бизнеса." data-kz="Кеңсе жиһазын, оргтехниканы, құжаттар мен сервер жабдықтарын тасымалдау. Бизнесіңіздің тоқтап қалуын азайту үшін жылдам және ұйымдасқан жұмыс істейміз.">Перевозка офисной мебели, оргтехники, документов и серверного оборудования. Работаем быстро и организованно, чтобы минимизировать простой вашего бизнеса.</p>
+                <div style="margin-top:16px"><span class="service-card__price" style="font-size:20px">от 15 000 ₸</span></div>
+                <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+                    <a href="gazel.html?type=next" class="btn btn--sm btn--outline">ГАЗель NEXT</a>
+                    <a href="gazel.html?type=furgon" class="btn btn--sm btn--outline" data-ru="Газель-фургон" data-kz="Газель-фургон">Газель-фургон</a>
+                </div>
+            </div>
+            <!-- Перевозка мебели -->
+            <div class="service-card animate-up" style="padding:32px">
+                <div class="service-card__icon" style="font-size:48px">🛋️</div>
+                <h3 style="font-size:22px" data-ru="Перевозка мебели" data-kz="Жиһаз тасымалдау">Перевозка мебели</h3>
+                <p data-ru="Перевозим диваны, шкафы, кровати, столы и другую мебель. Разборка и сборка мебели, упаковка в защитную плёнку. Подъём и спуск по этажам." data-kz="Диван, шкаф, кереует, үстел және басқа жиһаздарды тасымалдаймыз. Жиһазды бөлшектеу және құрастыру, қорғаныш пленкаға орау. Қабаттар бойынша көтеру және түсіру.">Перевозим диваны, шкафы, кровати, столы и другую мебель. Разборка и сборка мебели, упаковка в защитную плёнку. Подъём и спуск по этажам.</p>
+                <div style="margin-top:16px"><span class="service-card__price" style="font-size:20px">от 5 000 ₸</span></div>
+                <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+                    <a href="gazel.html?type=tent" class="btn btn--sm btn--outline" data-ru="Тентованная газель" data-kz="Тентті газель">Тентованная газель</a>
+                    <a href="gazel.html?type=dlinnomer" class="btn btn--sm btn--outline" data-ru="Удлинённая газель" data-kz="Ұзартылған газель">Удлинённая газель</a>
+                </div>
+            </div>
+            <!-- Доставка стройматериалов -->
+            <div class="service-card animate-up" style="padding:32px">
+                <div class="service-card__icon" style="font-size:48px">🧱</div>
+                <h3 style="font-size:22px" data-ru="Доставка стройматериалов" data-kz="Құрылыс материалдарын жеткізу">Доставка стройматериалов</h3>
+                <p data-ru="Доставка кирпича, цемента, плитки, гипсокартона, профилей и других стройматериалов. Погрузка и разгрузка на объекте." data-kz="Кірпіш, цемент, плитка, гипсокартон, профильдер және басқа құрылыс материалдарын жеткізу. Нысанда тиеу және түсіру.">Доставка кирпича, цемента, плитки, гипсокартона, профилей и других стройматериалов. Погрузка и разгрузка на объекте.</p>
+                <div style="margin-top:16px"><span class="service-card__price" style="font-size:20px">от 5 000 ₸</span></div>
+                <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+                    <a href="gazel.html?type=bortovaya" class="btn btn--sm btn--outline" data-ru="Бортовая газель" data-kz="Бортты газель">Бортовая газель</a>
+                    <a href="gazel.html?type=dlinnomer" class="btn btn--sm btn--outline" data-ru="Удлинённая газель" data-kz="Ұзартылған газель">Удлинённая газель</a>
+                </div>
+            </div>
+            <!-- Вывоз мусора -->
+            <div class="service-card animate-up" style="padding:32px">
+                <div class="service-card__icon" style="font-size:48px">🗑️</div>
+                <h3 style="font-size:22px" data-ru="Вывоз строительного мусора" data-kz="Құрылыс қоқысын шығару">Вывоз строительного мусора</h3>
+                <p data-ru="Вывоз строительного мусора, старой мебели, бытовой техники и хлама после ремонта. Погрузка и утилизация." data-kz="Жөндеуден кейін құрылыс қалдықтарын, ескі жиһазды, тұрмыстық техниканы шығару. Тиеу және жою.">Вывоз строительного мусора, старой мебели, бытовой техники и хлама после ремонта. Погрузка и утилизация.</p>
+                <div style="margin-top:16px"><span class="service-card__price" style="font-size:20px">от 5 000 ₸</span></div>
+                <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+                    <a href="gazel.html?type=bortovaya" class="btn btn--sm btn--outline" data-ru="Бортовая газель" data-kz="Бортты газель">Бортовая газель</a>
+                </div>
+            </div>
+            <!-- Междугородние -->
+            <div class="service-card animate-up" style="padding:32px">
+                <div class="service-card__icon" style="font-size:48px">🛣️</div>
+                <h3 style="font-size:22px" data-ru="Междугородние перевозки" data-kz="Қалааралық тасымалдау">Междугородние перевозки</h3>
+                <p data-ru="Грузоперевозки из Астаны в пригород и ближайшие города. Караганда, Кокшетау, Павлодар и другие направления." data-kz="Астанадан маңайға және жақын қалаларға жүк тасымалдау. Қарағанды, Көкшетау, Павлодар және басқа бағыттар.">Грузоперевозки из Астаны в пригород и ближайшие города. Караганда, Кокшетау, Павлодар и другие направления.</p>
+                <div style="margin-top:16px"><span class="service-card__price" style="font-size:20px" data-ru="договорная" data-kz="келісімді">договорная</span></div>
+                <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+                    <a href="gazel.html?type=next" class="btn btn--sm btn--outline">ГАЗель NEXT</a>
+                    <a href="gazel.html?type=tent" class="btn btn--sm btn--outline" data-ru="Тентованная газель" data-kz="Тентті газель">Тентованная газель</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="section section--alt" id="uslugi-form">
+    <div class="container" style="text-align:center">
+        <h2 class="section__title" data-ru="Нужна грузоперевозка?" data-kz="Жүк тасымалдау қажет пе?">Нужна грузоперевозка?</h2>
+        <p class="section__subtitle" data-ru="Позвоните или напишите — подберём оптимальный вариант" data-kz="Қоңырау шалыңыз немесе жазыңыз — оңтайлы нұсқаны таңдаймыз">Позвоните или напишите — подберём оптимальный вариант</p>
+        <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap">
+            <a href="tel:+77074534518" class="btn btn--primary btn--lg">📞 +7 707 453 45 18</a>
+            <a href="https://wa.me/77074534518" target="_blank" rel="noopener" class="btn btn--whatsapp btn--lg">💬 WhatsApp</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer__inner">
+        <div class="footer__col"><a href="/" class="logo"><span class="logo__icon">🚛</span><span class="logo__text" data-ru="Грузоперевозки" data-kz="Жүк тасымалдау">Грузоперевозки</span></a><p class="footer__desc" data-ru="Грузоперевозки по Астане и пригороду." data-kz="Астана және маңайы бойынша жүк тасымалдау.">Грузоперевозки по Астане и пригороду.</p></div>
+        <div class="footer__col"><h4 data-ru="Навигация" data-kz="Навигация">Навигация</h4><nav class="footer__nav"><a href="/">Главная</a><a href="uslugi.html">Услуги</a><a href="ceny.html">Цены</a><a href="about-contacts.html">О компании</a></nav></div>
+        <div class="footer__col"><h4 data-ru="Контакты" data-kz="Байланыс">Контакты</h4><div class="footer__contact"><a href="tel:+77074534518">📞 +7 707 453 45 18</a><a href="https://wa.me/77074534518" target="_blank" rel="noopener">💬 WhatsApp</a><a href="/cdn-cgi/l/email-protection#b1d8dfd7def1d6c3c4cbd0c2c5d0dfd09fdacb">✉️ <span class="__cf_email__" data-cfemail="b8d1d6ded7f8dfcacdc2d9cbccd9d6d996d3c2">[email&#160;protected]</span></a></div></div>
+        <div class="footer__col"><h4 data-ru="Газели" data-kz="Газельдер">Газели</h4><nav class="footer__nav"><a href="gazel.html?type=tent">Тентованная</a><a href="gazel.html?type=furgon">Фургон</a><a href="gazel.html?type=next">ГАЗель NEXT</a></nav></div>
+    </div>
+    <div class="footer__bottom"><div class="container"><p>© 2026 Грузоперевозки Астана | <a href="privacy.html">Политика конфиденциальности</a></p></div></div>
+</footer>
+
+<div class="floating-btns"><a href="https://wa.me/77074534518" target="_blank" rel="noopener" class="float-btn float-btn--whatsapp">💬</a><button class="float-btn float-btn--top">↑</button></div>
+<a href="tel:+77074534518" class="float-call">📞 Позвонить +7 707 453 45 18</a>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="module" src="./script.js"></script>
+</body>
+</html>
